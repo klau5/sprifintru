@@ -73,7 +73,7 @@ li {
 	font-weight: 500;
 }
 
-.head-info span::after {
+/* .head-info span::after {
 	content: "";
 	background: var(--orange);
 	height: 2px;
@@ -81,7 +81,7 @@ li {
 	position: absolute;
 	top: 130%;
 	right: 47%;
-}
+} */
 
 .new-top {
 	padding: 55px 40px;
