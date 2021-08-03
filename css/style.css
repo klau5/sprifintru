@@ -22,7 +22,7 @@ h6 {
 }
 
 .top {
-	padding: 2px 0;
+	padding: 1px 0;
 	background: var(--orange);
 }
 
@@ -82,6 +82,10 @@ li {
 	top: 130%;
 	right: 47%;
 } */
+
+.sub-head {
+	color: var(--orange);
+}
 
 .new-top {
 	padding: 55px 40px;
