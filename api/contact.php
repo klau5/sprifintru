@@ -18,15 +18,15 @@ try {
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.atconsulenza.it';                     //Set the SMTP server to send through
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'colorilobrace@atconsulenza.it';                     //SMTP username
-    $mail->Password   = 'lobrace2014';                               //SMTP password
+    $mail->Username   = 'kmvn22@gmail.com';                     //SMTP username
+    $mail->Password   = 'ylC8hvAb4@l';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     // receipients
-    $mail->setFrom('colorilobrace@atconsulenza.it');
+    $mail->setFrom('kmvn22@gmail.com');
     $mail->addAddress('info@springfinacetrust.co');
 
     //Content
