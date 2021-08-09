@@ -18,10 +18,11 @@ try {
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = '$_ENV["HOST"]';                     //Set the SMTP server to send through
+    $mail->Host       = 'smtp.sendgrid.net';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = '$_ENV["USER"]';                     //SMTP username
-    $mail->Password   = '$_ENV["PASS"]';                               //SMTP password
+    $mail->Username   = 'apikey';                     //SMTP username
+    $mail->Password   = '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
+';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
