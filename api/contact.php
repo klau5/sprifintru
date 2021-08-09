@@ -18,12 +18,12 @@ try {
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'us2.smtp.mailhostbox.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'poczta.o2.pl';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'webmail@springfinancetrust.co';                     //SMTP username
-    $mail->Password   = 'KgkLMDr1';                               //SMTP password
+    $mail->Username   = 'dem.boyz.93@tlen.pl';                     //SMTP username
+    $mail->Password   = 'belmondoe';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
-    $mail->Port       = 25;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     // receipients
     $mail->setFrom('webmail@springfinacetrust.co', 'Website Contact Forms');
