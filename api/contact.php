@@ -18,10 +18,10 @@ try {
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.springfinancetrust.co';                     //Set the SMTP server to send through
+    $mail->Host       = 'securesmtp.t-online.de';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'webmail@springfinancetrust.co';                     //SMTP username
-    $mail->Password   = 'KgkLMDr1';                               //SMTP password
+    $mail->Username   = 'oskar-seibt@t-online.de';                     //SMTP username
+    $mail->Password   = 'Bossiossi080150';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -39,5 +39,5 @@ try {
     die();
     // echo 'Message has been sent';
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    echo "Message could not be sent: {$mail->ErrorInfo}";
 }
