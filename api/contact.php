@@ -18,10 +18,10 @@ try {
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'poczta.o2.pl';                     //Set the SMTP server to send through
+    $mail->Host       = '$_ENV["HOST"]';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'dem.boyz.93@tlen.pl';                     //SMTP username
-    $mail->Password   = 'belmondoe';                               //SMTP password
+    $mail->Username   = '$_ENV["USER"]';                     //SMTP username
+    $mail->Password   = '$_ENV["PASS"]';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
