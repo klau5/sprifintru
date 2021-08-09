@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'cb0abce93380787a5333b273c22093cdf9c82d25',
+        'reference' => '744be2fd67642abd9f4b7a589cb1631ebf83393f',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'cb0abce93380787a5333b273c22093cdf9c82d25',
+            'reference' => '744be2fd67642abd9f4b7a589cb1631ebf83393f',
             'dev_requirement' => false,
         ),
         'doctrine/lexer' => array(
@@ -35,15 +35,6 @@
             'install_path' => __DIR__ . '/../egulias/email-validator',
             'aliases' => array(),
             'reference' => 'c81f18a3efb941d8c4d2e025f6183b5c6d697307',
-            'dev_requirement' => false,
-        ),
-        'phpmailer/phpmailer' => array(
-            'pretty_version' => 'v6.5.0',
-            'version' => '6.5.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
-            'aliases' => array(),
-            'reference' => 'a5b5c43e50b7fba655f793ad27303cd74c57363c',
             'dev_requirement' => false,
         ),
         'swiftmailer/swiftmailer' => array(
