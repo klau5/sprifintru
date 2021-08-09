@@ -26,8 +26,8 @@ try {
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     // receipients
-    $mail->setFrom('webmail@springfinacetrust.co', 'Website Contact Forms');
-    $mail->addAddress('info@springfinancetrust.co');
+    $mail->setFrom('webmail@springfinacetrust.co');
+    $mail->addAddress('kmvn22@gmail.com');
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
