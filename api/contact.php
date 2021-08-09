@@ -21,8 +21,7 @@ try {
     $mail->Host       = 'smtp.sendgrid.net';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'apikey';                     //SMTP username
-    $mail->Password   = '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
-';                               //SMTP password
+    $mail->Password   = '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';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
