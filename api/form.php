@@ -23,7 +23,7 @@ try {
     $mail->Username   = 'booking@revolving.de';                     //SMTP username
     $mail->Password   = 'buchen';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     // receipients
     $mail->setFrom('booking@revolving.de');
