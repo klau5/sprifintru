@@ -18,15 +18,15 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.revolving.de';                     //Set the SMTP server to send through
+    $mail->Host       = 'smtp.poczta.onet.pl';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'booking@revolving.de';                     //SMTP username
-    $mail->Password   = 'buchen';                               //SMTP password
+    $mail->Username   = 'pzadykowicz@poczta.onet.pl';                     //SMTP username
+    $mail->Password   = 'bi08804';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     // receipients
-    $mail->setFrom('booking@revolving.de');
+    $mail->setFrom('pzadykowicz@poczta.onet.pl');
     $mail->addAddress('info@springfinacetrust.co');
 
     //Content
